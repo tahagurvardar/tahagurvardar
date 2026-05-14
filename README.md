@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Taha Gürvardar 👋
 
-<!--
-**tahagurvardar/tahagurvardar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer Engineering student at Khazar University interested in frontend development, AI technologies, and cybersecurity.
 
-Here are some ideas to get you started:
+## Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* React.js
+* JavaScript
+* HTML5 / CSS3
+* Node.js
+* MongoDB
+* Git & GitHub
+* Python
+
+## Currently Working On
+
+* Football Manager Roleplay Web Application
+* Frontend and MERN stack projects
+* AI and cybersecurity learning
+
+## Connect With Me
+
+* LinkedIn: https://linkedin.com/in/tahagurvardar
+* GitHub: https://github.com/tahagurvardar
