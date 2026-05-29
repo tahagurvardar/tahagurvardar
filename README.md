@@ -2,15 +2,15 @@
 
 Computer Engineering student at **Khazar University** focused on **Frontend Development** and **MERN Stack** applications.
 
-I build full-stack web apps with **React.js, Node.js, Express and MongoDB**.  
-Currently improving my skills in frontend architecture, REST API development and cybersecurity fundamentals.
+I build full-stack web applications with **React.js, Node.js, Express and MongoDB**.  
+Currently improving my skills in frontend architecture, REST API development and secure web development.
 
 ---
 
 ## 🚀 About Me
 
 - 🎓 Computer Engineering student at Khazar University
-- 💻 Junior Frontend & MERN Stack Developer
+- 💻 Frontend & MERN Stack Developer
 - ⚛️ Building projects with React.js, Node.js and MongoDB
 - 🔐 Interested in cybersecurity and secure web development
 - 🌍 Open to internship and junior developer opportunities
@@ -41,7 +41,7 @@ Currently improving my skills in frontend architecture, REST API development and
 
 ### ⚽ WorldCupManager 2026
 
-A football manager simulation platform for managing national teams, squads, tactics and match simulations.
+A full-stack football manager simulation platform for managing national teams, squads, tactics and match simulations.
 
 **Tech:** React.js, Node.js, Express, MongoDB  
 **Highlights:** Full-stack architecture, authentication, team management, simulation logic
