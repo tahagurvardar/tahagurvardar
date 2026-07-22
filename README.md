@@ -38,9 +38,9 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css,vite&amp;theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css,vite&amp;theme=light" />
-    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css,vite&amp;theme=light" alt="Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, and Vite" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs%2Creact%2Cts%2Cjs%2Ctailwind%2Chtml%2Ccss%2Cvite&amp;perline=8&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs%2Creact%2Cts%2Cjs%2Ctailwind%2Chtml%2Ccss%2Cvite&amp;perline=8&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=nextjs%2Creact%2Cts%2Cjs%2Ctailwind%2Chtml%2Ccss%2Cvite&amp;perline=8&amp;theme=light" alt="Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, and Vite" />
   </picture>
 </p>
 
@@ -50,9 +50,9 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express&amp;theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,express&amp;theme=light" />
-    <img src="https://skillicons.dev/icons?i=nodejs,express&amp;theme=light" alt="Node.js and Express" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cexpress&amp;perline=2&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs%2Cexpress&amp;perline=2&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=nodejs%2Cexpress&amp;perline=2&amp;theme=light" alt="Node.js and Express" />
   </picture>
 </p>
 
@@ -62,9 +62,9 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,prisma,mongodb,sqlite,redis&amp;theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,prisma,mongodb,sqlite,redis&amp;theme=light" />
-    <img src="https://skillicons.dev/icons?i=postgres,prisma,mongodb,sqlite,redis&amp;theme=light" alt="PostgreSQL, Prisma, MongoDB, SQLite, and Redis" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres%2Cprisma%2Cmongodb%2Csqlite%2Credis&amp;perline=5&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres%2Cprisma%2Cmongodb%2Csqlite%2Credis&amp;perline=5&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=postgres%2Cprisma%2Cmongodb%2Csqlite%2Credis&amp;perline=5&amp;theme=light" alt="PostgreSQL, Prisma, MongoDB, SQLite, and Redis" />
   </picture>
 </p>
 
@@ -74,9 +74,9 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=vitest,githubactions,vercel,git,github,postman,vscode&amp;theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=vitest,githubactions,vercel,git,github,postman,vscode&amp;theme=light" />
-    <img src="https://skillicons.dev/icons?i=vitest,githubactions,vercel,git,github,postman,vscode&amp;theme=light" alt="Vitest, GitHub Actions, Vercel, Git, GitHub, Postman, and Visual Studio Code" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=vitest%2Cgithubactions%2Cvercel%2Cgit%2Cgithub%2Cpostman%2Cvscode&amp;perline=7&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=vitest%2Cgithubactions%2Cvercel%2Cgit%2Cgithub%2Cpostman%2Cvscode&amp;perline=7&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=vitest%2Cgithubactions%2Cvercel%2Cgit%2Cgithub%2Cpostman%2Cvscode&amp;perline=7&amp;theme=light" alt="Vitest, GitHub Actions, Vercel, Git, GitHub, Postman, and Visual Studio Code" />
   </picture>
 </p>
 
@@ -86,9 +86,9 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,cs,c&amp;theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,cs,c&amp;theme=light" />
-    <img src="https://skillicons.dev/icons?i=ts,js,python,java,cs,c&amp;theme=light" alt="TypeScript, JavaScript, Python, Java, C#, and C" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cpython%2Cjava%2Ccs%2Cc&amp;perline=6&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cpython%2Cjava%2Ccs%2Cc&amp;perline=6&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=ts%2Cjs%2Cpython%2Cjava%2Ccs%2Cc&amp;perline=6&amp;theme=light" alt="TypeScript, JavaScript, Python, Java, C#, and C" />
   </picture>
 </p>
 
