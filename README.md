@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Taha Gürvardar</h1>
+<h1 align="center">Hi, I'm Taha Gürvardar 👋</h1>
 
 <h3 align="center">
 Computer Engineering Student · Full-Stack Software Developer · AI &amp; Secure Systems Enthusiast
@@ -22,35 +22,75 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
-- Computer Engineering student at **Khazar University** in Baku
-- Full-stack developer working primarily in the **TypeScript and JavaScript** ecosystem
-- Experienced with authentication, role-based authorization, relational databases, automated testing, CI/CD, and deployment
-- Interested in AI/ML, cybersecurity, and real-time and data-intensive systems
-- Open to internships, junior roles, and remote opportunities
+- 🎓 Computer Engineering student at **Khazar University** in Baku
+- 💻 Full-stack developer working primarily in the **TypeScript and JavaScript** ecosystem
+- 🔐 Experienced with authentication, role-based authorization, relational databases, automated testing, CI/CD, and deployment
+- 🤖 Interested in AI/ML, cybersecurity, and real-time and data-intensive systems
+- 🌍 Open to internships, junior roles, and remote opportunities
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 **Frontend**
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css,vite&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css,vite&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css,vite&amp;theme=light" alt="Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, and Vite" />
+  </picture>
+</p>
 
 `Next.js` · `React` · `TypeScript` · `JavaScript` · `Tailwind CSS` · `HTML` · `CSS` · `Vite`
 
 **Backend and architecture**
 
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,express&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express&amp;theme=light" alt="Node.js and Express" />
+  </picture>
+</p>
+
 `Next.js App Router` · `Node.js` · `Express` · `Server Components` · `Server Actions` · `REST APIs` · `Zod` · `Better Auth`
 
 **Data and infrastructure**
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,prisma,mongodb,sqlite,redis&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,prisma,mongodb,sqlite,redis&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=postgres,prisma,mongodb,sqlite,redis&amp;theme=light" alt="PostgreSQL, Prisma, MongoDB, SQLite, and Redis" />
+  </picture>
+</p>
 
 `PostgreSQL` · `Prisma` · `MongoDB` · `SQLite` · `Redis` · `Upstash QStash`
 
 **Testing and delivery**
 
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=vitest,githubactions,vercel,git,github,postman,vscode&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=vitest,githubactions,vercel,git,github,postman,vscode&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=vitest,githubactions,vercel,git,github,postman,vscode&amp;theme=light" alt="Vitest, GitHub Actions, Vercel, Git, GitHub, Postman, and Visual Studio Code" />
+  </picture>
+</p>
+
 `Vitest` · `Playwright` · `GitHub Actions` · `Vercel` · `Git` · `Postman`
 
 **Programming languages**
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,cs,c&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,python,java,cs,c&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=ts,js,python,java,cs,c&amp;theme=light" alt="TypeScript, JavaScript, Python, Java, C#, and C" />
+  </picture>
+</p>
 
 - **Primary:** TypeScript · JavaScript
 - **Working knowledge:** Python · Java
@@ -58,9 +98,9 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### 1. SeatFlow — Flagship Project
+### 1. 🎟️ SeatFlow — Flagship Project
 
 A production-oriented, multi-tenant event-ticketing platform built around explicit trust boundaries and transactional integrity.
 
@@ -81,7 +121,7 @@ A production-oriented, multi-tenant event-ticketing platform built around explic
   </a>
 </p>
 
-### 2. CareerBridge — Full-Stack Hiring Platform
+### 2. 💼 CareerBridge — Full-Stack Hiring Platform
 
 A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and **Admin** workflows. It uses Next.js and TypeScript with PostgreSQL, Prisma, and Better Auth, with server-enforced authorization, validated mutations, four-locale delivery, automated testing, and controlled Vercel deployment.
 
@@ -96,17 +136,17 @@ A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and
 
 > The repository is publicly viewable under proprietary, source-available terms for portfolio and review use; it is not open source.
 
-### 3. Smart Product Intelligence — AI Engineering Capstone
+### 3. 🧠 Smart Product Intelligence — AI Engineering Capstone
 
 An [AI engineering capstone](https://github.com/tahagurvardar/smart-product-intelligence) spanning tabular machine learning, computer vision, NLP, transformers, retrieval-augmented generation, and diffusion workflows. The project integrates these paths in a Gradio application with safe fallbacks when models or generated artifacts are unavailable.
 
-### 4. WorldCupManager 2026
+### 4. ⚽ WorldCupManager 2026
 
 A [MERN national-team management and simulation platform](https://github.com/tahagurvardar/WorldCupManager-2026) with squad selection, tactics and recommended-lineup workflows, match simulation, and context-aware press and media reactions. Built with React, Node.js, Express, and MongoDB.
 
 ---
 
-## Other Projects
+## 📂 Other Projects
 
 - [TurcoManager](https://github.com/tahagurvardar/TurcoManager) — Football-management simulation built with the MERN stack
 - [LifePilot AI](https://github.com/tahagurvardar/LifePilot-AI) — Frontend personal-finance and career-planning dashboard
@@ -115,7 +155,7 @@ A [MERN national-team management and simulation platform](https://github.com/tah
 
 ---
 
-## Engineering Focus
+## 🎯 Engineering Focus
 
 - Production-oriented full-stack architecture
 - Authentication and authorization
@@ -128,7 +168,7 @@ A [MERN national-team management and simulation platform](https://github.com/tah
 
 ---
 
-## Education and Certifications
+## 🎓 Education and Certifications
 
 **Computer Engineering — Khazar University, Baku**
 
