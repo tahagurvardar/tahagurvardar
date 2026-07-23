@@ -123,11 +123,13 @@ A production-oriented, multi-tenant event-ticketing platform built around explic
 
 ### 2. 🧩 WordX — Bilingual Word Puzzle
 
-An original, guest-first Turkish and English word puzzle with **Classic**, **Quick Rush**, and **Daily Challenge** modes. Optional Better Auth accounts add PostgreSQL-backed private history, XP, levels, and achievements, along with privacy export, account deletion, and session controls.
+An original Turkish and English word puzzle with guest gameplay across **Classic**, **Quick Rush**, and **Daily Challenge**. A live **public guest staging demo** is available, with public account features temporarily disabled there.
 
-- Built with Next.js, TypeScript, Prisma, and PostgreSQL, with GitHub Actions CI
-- **205 automated tests** across Vitest, PostgreSQL integration, and Playwright suites
-- Published as the **v1.0.0 source release**; no production deployment yet
+- Account and email workflows remain implemented separately in the codebase, including optional Better Auth accounts with PostgreSQL-backed private history, XP, levels, achievements, privacy export, account deletion, and session controls; public accounts, email verification, password reset, and email delivery are not active on staging, and production infrastructure remains planned
+- Built with Next.js, TypeScript, Prisma, and PostgreSQL; GitHub Actions validates the project
+- Vercel Functions and Neon PostgreSQL staging infrastructure are deployed in Frankfurt
+- **220 automated tests** across unit/component, PostgreSQL integration, and Playwright suites, building on the **205-test v1.0.0 release baseline**
+- Published as the **v1.0.0 source release**; the live environment is staging only
 
 <p>
   <a href="https://github.com/tahagurvardar/wordx">
@@ -135,6 +137,9 @@ An original, guest-first Turkish and English word puzzle with **Classic**, **Qui
   </a>
   <a href="https://github.com/tahagurvardar/wordx/releases/tag/v1.0.0">
     <img src="https://img.shields.io/badge/Release-v1.0.0-2EA043?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="WordX v1.0.0 Release" />
+  </a>
+  <a href="https://wordx-staging.vercel.app">
+    <img src="https://img.shields.io/badge/Live%20Demo-WordX-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="WordX Public Guest Staging Demo" />
   </a>
 </p>
 
