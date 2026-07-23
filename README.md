@@ -121,7 +121,24 @@ A production-oriented, multi-tenant event-ticketing platform built around explic
   </a>
 </p>
 
-### 2. 💼 CareerBridge — Full-Stack Hiring Platform
+### 2. 🧩 WordX — Bilingual Word Puzzle
+
+An original, guest-first Turkish and English word puzzle with **Classic**, **Quick Rush**, and **Daily Challenge** modes. Optional Better Auth accounts add PostgreSQL-backed private history, XP, levels, and achievements, along with privacy export, account deletion, and session controls.
+
+- Built with Next.js, TypeScript, Prisma, and PostgreSQL, with GitHub Actions CI
+- **205 automated tests** across Vitest, PostgreSQL integration, and Playwright suites
+- Published as the **v1.0.0 source release**; no production deployment yet
+
+<p>
+  <a href="https://github.com/tahagurvardar/wordx">
+    <img src="https://img.shields.io/badge/Repository-wordx-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="WordX Repository" />
+  </a>
+  <a href="https://github.com/tahagurvardar/wordx/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Release-v1.0.0-2EA043?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="WordX v1.0.0 Release" />
+  </a>
+</p>
+
+### 3. 💼 CareerBridge — Full-Stack Hiring Platform
 
 A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and **Admin** workflows. It uses Next.js and TypeScript with PostgreSQL, Prisma, and Better Auth, with server-enforced authorization, validated mutations, four-locale delivery, automated testing, and controlled Vercel deployment.
 
@@ -136,11 +153,11 @@ A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and
 
 > The repository is publicly viewable under proprietary, source-available terms for portfolio and review use; it is not open source.
 
-### 3. 🧠 Smart Product Intelligence — AI Engineering Capstone
+### 4. 🧠 Smart Product Intelligence — AI Engineering Capstone
 
 An [AI engineering capstone](https://github.com/tahagurvardar/smart-product-intelligence) spanning tabular machine learning, computer vision, NLP, transformers, retrieval-augmented generation, and diffusion workflows. The project integrates these paths in a Gradio application with safe fallbacks when models or generated artifacts are unavailable.
 
-### 4. ⚽ WorldCupManager 2026
+### 5. ⚽ WorldCupManager 2026
 
 A [MERN national-team management and simulation platform](https://github.com/tahagurvardar/WorldCupManager-2026) with squad selection, tactics and recommended-lineup workflows, match simulation, and context-aware press and media reactions. Built with React, Node.js, Express, and MongoDB.
 
