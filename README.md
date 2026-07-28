@@ -12,6 +12,9 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
   <a href="https://linkedin.com/in/tahagurvardar">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
+  <a href="https://committrail.vercel.app">
+    <img src="https://img.shields.io/badge/CommitTrail-Public%20Demo-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="CommitTrail Public Demo" />
+  </a>
   <a href="https://seatflow-staging.vercel.app">
     <img src="https://img.shields.io/badge/SeatFlow-Live%20Demo-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="SeatFlow Live Demo" />
   </a>
@@ -100,7 +103,32 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
 
 ## 🚀 Featured Projects
 
-### 1. 🎟️ SeatFlow — Flagship Project
+### 1. 🧭 CommitTrail — Evidence-First Engineering Portfolio Platform
+
+A release-hardened full-stack platform that turns bounded GitHub activity into evidence-backed engineering stories while preserving explicit privacy, provenance, and human-review boundaries.
+
+- Public GitHub repository exploration plus verified, read-only GitHub App access for tracked private repositories
+- Exact-byte webhook verification and a durable PostgreSQL worker with idempotency, leases, retries, dead-letter history, and evidence provenance
+- Human-authored claims and optional grounded AI-assisted drafting with sentence-level evidence citations and explicit human verification
+- Immutable public profiles and project revisions with privacy-safe evidence disclosure
+- Deterministic case-study, CV-bullet, and interview-story builders without provider calls during publishing or export
+- Workspace-scoped authorization, ephemeral GitHub tokens, raw webhook/provider-response non-persistence, nonce CSP, account export, and transactional deletion
+- Released as **v1.0.0** with **421 unit/component tests**, **57 PostgreSQL integration and worker tests**, and **72 Chromium browser cases**
+- Live Vercel **Public Demo**; account and private-workspace features are disabled in the hosted demo, while full mode runs locally with PostgreSQL 17 and a separate worker
+
+<p>
+  <a href="https://github.com/tahagurvardar/committrail">
+    <img src="https://img.shields.io/badge/Repository-committrail-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="CommitTrail Repository" />
+  </a>
+  <a href="https://github.com/tahagurvardar/committrail/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Release-v1.0.0-2EA043?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="CommitTrail v1.0.0 Release" />
+  </a>
+  <a href="https://committrail.vercel.app">
+    <img src="https://img.shields.io/badge/Public%20Demo-CommitTrail-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="CommitTrail Public Demo" />
+  </a>
+</p>
+
+### 2. 🎟️ SeatFlow — Flagship Project
 
 A production-oriented, multi-tenant event-ticketing platform built around explicit trust boundaries and transactional integrity.
 
@@ -121,7 +149,7 @@ A production-oriented, multi-tenant event-ticketing platform built around explic
   </a>
 </p>
 
-### 2. 🧩 WordX — Bilingual Word Puzzle
+### 3. 🧩 WordX — Bilingual Word Puzzle
 
 An original Turkish and English word puzzle with guest gameplay across **Classic**, **Quick Rush**, and **Daily Challenge**. A live **public guest staging demo** is available, with public account features temporarily disabled there.
 
@@ -143,7 +171,7 @@ An original Turkish and English word puzzle with guest gameplay across **Classic
   </a>
 </p>
 
-### 3. 💼 CareerBridge — Full-Stack Hiring Platform
+### 4. 💼 CareerBridge — Full-Stack Hiring Platform
 
 A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and **Admin** workflows. It uses Next.js and TypeScript with PostgreSQL, Prisma, and Better Auth, with server-enforced authorization, validated mutations, four-locale delivery, automated testing, and controlled Vercel deployment.
 
@@ -158,18 +186,15 @@ A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and
 
 > The repository is publicly viewable under proprietary, source-available terms for portfolio and review use; it is not open source.
 
-### 4. 🧠 Smart Product Intelligence — AI Engineering Capstone
+### 5. 🧠 Smart Product Intelligence — AI Engineering Capstone
 
 An [AI engineering capstone](https://github.com/tahagurvardar/smart-product-intelligence) spanning tabular machine learning, computer vision, NLP, transformers, retrieval-augmented generation, and diffusion workflows. The project integrates these paths in a Gradio application with safe fallbacks when models or generated artifacts are unavailable.
-
-### 5. ⚽ WorldCupManager 2026
-
-A [MERN national-team management and simulation platform](https://github.com/tahagurvardar/WorldCupManager-2026) with squad selection, tactics and recommended-lineup workflows, match simulation, and context-aware press and media reactions. Built with React, Node.js, Express, and MongoDB.
 
 ---
 
 ## 📂 Other Projects
 
+- [WorldCupManager 2026](https://github.com/tahagurvardar/WorldCupManager-2026) — MERN national-team management platform with squad, tactics, match-simulation, and media-reaction workflows
 - [TurcoManager](https://github.com/tahagurvardar/TurcoManager) — Football-management simulation built with the MERN stack
 - [LifePilot AI](https://github.com/tahagurvardar/LifePilot-AI) — Frontend personal-finance and career-planning dashboard
 - [Hospital Project](https://github.com/tahagurvardar/Hospital-Project) — Hospital management application
