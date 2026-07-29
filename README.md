@@ -5,7 +5,7 @@ Computer Engineering Student · Full-Stack Software Developer · AI &amp; Secure
 </h3>
 
 <p align="center">
-I build production-oriented full-stack systems with TypeScript, Next.js, PostgreSQL, and modern cloud tooling, focusing on secure architecture, authorization, testing, CI/CD, and maintainability. I also work on AI/ML, data-intensive, and real-time systems.
+I build production-oriented full-stack and deterministic systems with TypeScript, Next.js, PostgreSQL, and modern cloud tooling, focusing on secure architecture, authorization, testing, CI/CD, and maintainability. I also work on simulation, Worker-based browser applications, AI/ML, and real-time and data-intensive systems.
 </p>
 
 <p align="center">
@@ -18,8 +18,8 @@ I build production-oriented full-stack systems with TypeScript, Next.js, Postgre
   <a href="https://seatflow-staging.vercel.app">
     <img src="https://img.shields.io/badge/SeatFlow-Live%20Demo-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="SeatFlow Live Demo" />
   </a>
-  <a href="https://careerbridge-puce.vercel.app">
-    <img src="https://img.shields.io/badge/CareerBridge-Live%20Demo-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="CareerBridge Live Demo" />
+  <a href="https://queueforge-five.vercel.app">
+    <img src="https://img.shields.io/badge/QueueForge-Live%20Demo-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="QueueForge Live Demo" />
   </a>
 </p>
 
@@ -149,7 +149,32 @@ A production-oriented, multi-tenant event-ticketing platform built around explic
   </a>
 </p>
 
-### 3. 🧩 WordX — Bilingual Word Puzzle
+### 3. ⚙️ QueueForge — Deterministic Operations Simulation
+
+A deterministic discrete-event simulation platform for modelling a synthetic takeaway-restaurant service pipeline and comparing queue-scheduling strategies under identical workloads.
+
+- Framework-independent TypeScript engine with seeded immutable workloads, stable priority scheduling, explicit state machines, safety bounds, and reproducible digests
+- FIFO and Shortest Estimated Processing Time with ageing, compared against the exact same generated workload
+- Dedicated Web Worker for interactive simulation and a separate comparison Worker, with pause, resume, exact step, bounded advance, stop, and reset controls
+- Custom scenarios, live queue and resource visualisation, bounded history, event filters, and authoritative terminal metrics
+- Browser-local IndexedDB persistence for scenarios and terminal runs, deterministic replay verification, atomic comparison saving, and versioned JSON/CSV exports
+- Released as **v1.0.0** with **40 unchanged engine tests** and **96 web tests**, plus Chromium, Firefox, WebKit, accessibility, security-header, and production release gates
+- Live Vercel production deployment with no accounts, cloud persistence, server database, external analytics, or paid infrastructure dependency
+- Synthetic educational simulation only; it does not predict real restaurant performance or recommend real staffing
+
+<p>
+  <a href="https://github.com/tahagurvardar/queueforge">
+    <img src="https://img.shields.io/badge/Repository-queueforge-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="QueueForge Repository" />
+  </a>
+  <a href="https://github.com/tahagurvardar/queueforge/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Release-v1.0.0-2EA043?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="QueueForge v1.0.0 Release" />
+  </a>
+  <a href="https://queueforge-five.vercel.app">
+    <img src="https://img.shields.io/badge/Live%20Demo-QueueForge-2EA043?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="QueueForge Live Demo" />
+  </a>
+</p>
+
+### 4. 🧩 WordX — Bilingual Word Puzzle
 
 An original Turkish and English word puzzle with guest gameplay across **Classic**, **Quick Rush**, and **Daily Challenge**. A live **public guest staging demo** is available, with public account features temporarily disabled there.
 
@@ -171,7 +196,7 @@ An original Turkish and English word puzzle with guest gameplay across **Classic
   </a>
 </p>
 
-### 4. 💼 CareerBridge — Full-Stack Hiring Platform
+### 5. 💼 CareerBridge — Full-Stack Hiring Platform
 
 A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and **Admin** workflows. It uses Next.js and TypeScript with PostgreSQL, Prisma, and Better Auth, with server-enforced authorization, validated mutations, four-locale delivery, automated testing, and controlled Vercel deployment.
 
@@ -186,14 +211,11 @@ A server-first, role-based hiring platform for **Candidate**, **Recruiter**, and
 
 > The repository is publicly viewable under proprietary, source-available terms for portfolio and review use; it is not open source.
 
-### 5. 🧠 Smart Product Intelligence — AI Engineering Capstone
-
-An [AI engineering capstone](https://github.com/tahagurvardar/smart-product-intelligence) spanning tabular machine learning, computer vision, NLP, transformers, retrieval-augmented generation, and diffusion workflows. The project integrates these paths in a Gradio application with safe fallbacks when models or generated artifacts are unavailable.
-
 ---
 
 ## 📂 Other Projects
 
+- [Smart Product Intelligence](https://github.com/tahagurvardar/smart-product-intelligence) — AI engineering capstone spanning tabular machine learning, computer vision, NLP, transformers, retrieval-augmented generation, and diffusion workflows. The project integrates these paths in a Gradio application with safe fallbacks when models or generated artifacts are unavailable.
 - [WorldCupManager 2026](https://github.com/tahagurvardar/WorldCupManager-2026) — MERN national-team management platform with squad, tactics, match-simulation, and media-reaction workflows
 - [TurcoManager](https://github.com/tahagurvardar/TurcoManager) — Football-management simulation built with the MERN stack
 - [LifePilot AI](https://github.com/tahagurvardar/LifePilot-AI) — Frontend personal-finance and career-planning dashboard
@@ -210,6 +232,7 @@ An [AI engineering capstone](https://github.com/tahagurvardar/smart-product-inte
 - Secure server-side mutations
 - Distributed and background-job systems
 - Automated testing and CI/CD
+- Deterministic simulation, Web Workers, and browser-local data systems
 - AI/ML and data-intensive applications
 - Maintainable software architecture
 
