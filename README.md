@@ -1,22 +1,22 @@
 <h1 align="center">Hi, I'm Taha Gürvardar 👋</h1>
 
 <h3 align="center">
-Computer Engineering Student · Software Developer · Systems & Full-Stack
+Computer Engineering Student · Systems & Backend Engineer · Full-Stack Developer
 </h3>
 
 <p align="center">
-I build desktop and web software with a focus on reliable systems, real-time data, secure architecture, and practical product engineering.
+I build distributed systems, real-time desktop software, and full-stack products with a focus on correctness, fault tolerance, concurrency, observability, and maintainable architecture.
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/tahagurvardar">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  <a href="https://github.com/tahagurvardar/forgegrid">
+    <img src="https://img.shields.io/badge/ForgeGrid-v1.0.0-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="ForgeGrid" />
+  </a>
   <a href="https://github.com/tahagurvardar/racelab">
     <img src="https://img.shields.io/badge/RaceLab-v2.0.0-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="RaceLab" />
-  </a>
-  <a href="https://committrail.vercel.app">
-    <img src="https://img.shields.io/badge/CommitTrail-Live-2EA043?style=for-the-badge&logo=vercel&logoColor=white" alt="CommitTrail" />
   </a>
 </p>
 
@@ -25,14 +25,23 @@ I build desktop and web software with a focus on reliable systems, real-time dat
 ## 👨‍💻 About Me
 
 - 🎓 Computer Engineering student at **Khazar University**
-- 💻 Building with **TypeScript, React, Rust, Tauri, Next.js, PostgreSQL, and Node.js**
-- 🖥️ Interested in **desktop software, real-time systems, backend architecture, and developer tooling**
-- 🔐 Focused on reliable, maintainable, and secure software
-- 🌍 Open to internships, junior software engineering roles, and remote opportunities
+- ⚙️ Building distributed systems, backend infrastructure, real-time desktop software, and full-stack applications
+- 💻 Working with **Go, Rust, TypeScript, React, PostgreSQL, gRPC, Docker, and Tauri**
+- 🌐 Interested in **distributed systems, concurrency, networking, backend architecture, observability, and developer tooling**
+- 🔐 Focused on correctness, failure handling, secure boundaries, and maintainable software
+- 🌍 Open to internships, junior software engineering roles, backend/systems opportunities, and remote work
 
 ---
 
 ## 🛠️ Technology Stack
+
+### Systems & Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=go,rust,nodejs,postgres,docker,redis&perline=6" alt="Systems and backend stack" />
+</p>
+
+`Go` · `Rust` · `Node.js` · `PostgreSQL` · `gRPC` · `Docker` · `Redis`
 
 ### Frontend
 
@@ -42,53 +51,88 @@ I build desktop and web software with a focus on reliable systems, real-time dat
 
 `Next.js` · `React` · `TypeScript` · `JavaScript` · `Tailwind CSS` · `HTML` · `CSS` · `Vite`
 
-### Backend & Data
+### Data & Persistence
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,mongodb,sqlite,redis&perline=6" alt="Backend and data stack" />
+  <img src="https://skillicons.dev/icons?i=postgres,prisma,mongodb,sqlite,redis&perline=5" alt="Data stack" />
 </p>
 
-`Node.js` · `PostgreSQL` · `Prisma` · `MongoDB` · `SQLite` · `Redis`
+`PostgreSQL` · `Prisma` · `MongoDB` · `SQLite` · `Redis` · `IndexedDB`
 
-### Desktop & Systems
+### Desktop, Networking & Infrastructure
 
 <p>
-  <img src="https://skillicons.dev/icons?i=rust,tauri&perline=2" alt="Rust and Tauri" />
+  <img src="https://skillicons.dev/icons?i=rust,tauri,docker&perline=3" alt="Desktop and infrastructure stack" />
 </p>
 
-`Rust` · `Tauri` · `Windows` · `UDP` · `Web Workers` · `IndexedDB`
+`Rust` · `Tauri` · `Docker` · `gRPC` · `UDP` · `SSE` · `Web Workers` · `Windows`
 
-### Testing & Delivery
+### Observability, Testing & Delivery
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vitest,githubactions,vercel,git,github,postman,vscode&perline=7" alt="Testing and delivery" />
+  <img src="https://skillicons.dev/icons?i=prometheus,grafana,vitest,githubactions,git,github,vercel&perline=7" alt="Observability, testing and delivery stack" />
 </p>
 
-`Playwright` · `Vitest` · `GitHub Actions` · `Vercel` · `Git`
+`OpenTelemetry` · `Prometheus` · `Jaeger` · `Playwright` · `Vitest` · `GitHub Actions` · `Git`
 
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,rust,python,java,cs,c&perline=7" alt="Programming languages" />
+  <img src="https://skillicons.dev/icons?i=go,ts,js,rust,python,java,cs,c&perline=8" alt="Programming languages" />
 </p>
 
-`TypeScript` · `JavaScript` · `Rust` · `Python` · `Java` · `C#` · `C`
+`Go` · `TypeScript` · `JavaScript` · `Rust` · `Python` · `Java` · `C#` · `C`
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏎️ RaceLab — Motorsport Telemetry for Windows
+### ⚙️ ForgeGrid — Distributed Job Execution Engine
 
-A Windows telemetry, session recording, and in-game overlay application for **F1 25** and **Forza Horizon 6**.
+A distributed job execution platform focused on **execution ownership, worker failure recovery, concurrency, and observability**.
 
-- Automatic game detection
-- Live game-specific telemetry
+- Go Control Plane and Worker agents communicating over **gRPC**
+- PostgreSQL-backed durable coordination and scheduling
+- Heartbeat-based worker liveness detection
+- Renewable execution leases and monotonic fencing tokens
+- Worker session/incarnation tracking
+- Bounded infrastructure retries and stale-result rejection
+- Static DAG pipelines with fan-out, fan-in, dependency release, cancellation, and timeout semantics
+- Docker-based isolated execution for trusted workloads
+- Live stdout/stderr streaming over bounded SSE
+- Worker crash recovery with reassignment to another worker
+- Distributed tracing with **OpenTelemetry**
+- Metrics with **Prometheus**
+- Trace inspection with **Jaeger**
+- React operational console for pipelines, workers, attempts, logs, and recovery history
+- Real recovery verification:
+  `worker-b / LOST / fence 1 → worker-c / SUCCEEDED / fence 2`
+
+ForgeGrid provides **at-least-once physical execution with a single authoritative attempt**. It intentionally does not claim exactly-once execution, hostile multi-tenant isolation, or production HA.
+
+<p>
+  <a href="https://github.com/tahagurvardar/forgegrid">
+    <img src="https://img.shields.io/badge/Repository-ForgeGrid-181717?style=for-the-badge&logo=github&logoColor=white" alt="ForgeGrid repository" />
+  </a>
+  <a href="https://github.com/tahagurvardar/forgegrid/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Release-v1.0.0-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="ForgeGrid v1.0.0" />
+  </a>
+</p>
+
+---
+
+### 🏎️ RaceLab — Real-Time Motorsport Telemetry for Windows
+
+A Windows telemetry, automatic session recording, and in-game overlay application for **F1 25** and **Forza Horizon 6**.
+
+- Real-time UDP telemetry ingestion
+- Automatic game and session detection
 - Automatic session recording and persistence
 - Mixed-game session history
-- F1 lap, sector, event, tyre, fuel, and ERS data
-- Click-through F1 overlay
-- Local-first storage
+- F1 lap, sector, event, tyre, fuel, ERS, and vehicle-state data
+- Click-through in-game F1 overlay
+- Bounded background telemetry and recording workers
+- Local-first storage and retention
 - Built with **Rust, Tauri, React, and TypeScript**
 
 <p>
@@ -100,35 +144,21 @@ A Windows telemetry, session recording, and in-game overlay application for **F1
   </a>
 </p>
 
-### 🧭 CommitTrail — Engineering Portfolio Platform
+---
 
-A full-stack platform for turning repository activity into structured, evidence-backed project stories.
+### 🎟️ SeatFlow — Transactional Event Ticketing Platform
 
-- GitHub App integration
-- PostgreSQL background worker
-- Versioned public profiles and projects
-- Workspace-scoped authorization
-- Privacy-aware publishing
-- Built with Next.js, PostgreSQL, Prisma, and Better Auth
+A multi-tenant event ticketing platform centered on **atomic inventory, transactional consistency, and auditable financial workflows**.
 
-<p>
-  <a href="https://github.com/tahagurvardar/committrail">
-    <img src="https://img.shields.io/badge/Repository-CommitTrail-181717?style=for-the-badge&logo=github&logoColor=white" alt="CommitTrail repository" />
-  </a>
-  <a href="https://committrail.vercel.app">
-    <img src="https://img.shields.io/badge/Public%20Demo-CommitTrail-2EA043?style=for-the-badge&logo=vercel&logoColor=white" alt="CommitTrail demo" />
-  </a>
-</p>
-
-### 🎟️ SeatFlow — Event Ticketing Platform
-
-A multi-tenant event ticketing platform centered on transactional seat holds and reliable booking workflows.
-
-- Versioned venues and seat maps
+- Versioned venues and immutable seat maps
 - PostgreSQL-backed atomic seat holds
-- Simulated payment flow and verified webhooks
-- QR tickets, refunds, disputes, and financial ledger
-- Background reconciliation jobs
+- Concurrent inventory protection with row locking
+- Simulated payment provider and verified webhook processing
+- Exact-once booking fulfillment at the application boundary
+- QR tickets and atomic first-use redemption
+- Refunds, disputes, financial ledger, and reconciliation
+- Background jobs and transactional outbox workflows
+- Tenant-scoped authorization
 
 <p>
   <a href="https://github.com/tahagurvardar/seatflow">
@@ -139,15 +169,47 @@ A multi-tenant event ticketing platform centered on transactional seat holds and
   </a>
 </p>
 
+---
+
+### 🧭 CommitTrail — Evidence-Backed Engineering Portfolio
+
+A full-stack platform for turning repository activity into structured, inspectable, evidence-backed engineering stories.
+
+- GitHub App integration
+- Durable PostgreSQL background worker
+- HMAC-verified webhooks
+- Bounded retries and idempotent reconciliation
+- Evidence provenance
+- Versioned public profiles and projects
+- Workspace-scoped authorization
+- Privacy-aware publishing
+- Deterministic CV and interview outputs
+- Built with **Next.js, PostgreSQL, Prisma, and Better Auth**
+
+<p>
+  <a href="https://github.com/tahagurvardar/committrail">
+    <img src="https://img.shields.io/badge/Repository-CommitTrail-181717?style=for-the-badge&logo=github&logoColor=white" alt="CommitTrail repository" />
+  </a>
+  <a href="https://committrail.vercel.app">
+    <img src="https://img.shields.io/badge/Public%20Demo-CommitTrail-2EA043?style=for-the-badge&logo=vercel&logoColor=white" alt="CommitTrail demo" />
+  </a>
+</p>
+
+---
+
 ### ⚙️ QueueForge — Deterministic Operations Simulation
 
-A browser-based discrete-event simulation for comparing queue scheduling strategies under reproducible workloads.
+A browser-based discrete-event simulation for comparing scheduling strategies under reproducible workloads.
 
-- Seeded deterministic workloads
-- Multiple scheduling strategies
-- Web Worker execution
-- Browser-local persistence
-- Deterministic replay and exports
+- Pure deterministic simulation engine
+- Seeded workload generation
+- Stable event scheduling
+- FIFO and SEPT-with-ageing strategies
+- Dedicated Web Worker execution
+- Same-workload strategy comparison
+- Deterministic replay verification
+- Browser-local IndexedDB persistence
+- Versioned JSON and CSV exports
 
 <p>
   <a href="https://github.com/tahagurvardar/queueforge">
@@ -158,6 +220,8 @@ A browser-based discrete-event simulation for comparing queue scheduling strateg
   </a>
 </p>
 
+---
+
 ### 🧩 WordX — Bilingual Word Puzzle
 
 An original Turkish and English word puzzle with multiple game modes.
@@ -166,7 +230,8 @@ An original Turkish and English word puzzle with multiple game modes.
 - Quick Rush
 - Daily Challenge
 - Guest gameplay
-- Optional account, history, and achievement system
+- Optional account system
+- Game history and achievements
 
 <p>
   <a href="https://github.com/tahagurvardar/wordx">
@@ -181,7 +246,7 @@ An original Turkish and English word puzzle with multiple game modes.
 
 ## 📂 Other Projects
 
-- [CareerBridge](https://github.com/tahagurvardar/careerbridge) — role-based hiring platform
+- [CareerBridge](https://github.com/tahagurvardar/careerbridge) — hiring platform with role-based workflows
 - [Smart Product Intelligence](https://github.com/tahagurvardar/smart-product-intelligence) — applied machine learning project
 - [WorldCupManager 2026](https://github.com/tahagurvardar/WorldCupManager-2026) — national-team management platform
 - [TurcoManager](https://github.com/tahagurvardar/TurcoManager) — football-management simulation
@@ -191,14 +256,33 @@ An original Turkish and English word puzzle with multiple game modes.
 
 ## 🎯 Engineering Focus
 
-- Desktop and real-time software
-- Full-stack architecture
-- Authentication and authorization
-- PostgreSQL and transactional systems
-- Automated testing and CI/CD
+- Distributed systems and fault tolerance
+- Backend infrastructure
+- Concurrency and transactional correctness
+- Real-time networking and telemetry
+- PostgreSQL coordination and persistence
+- Worker scheduling and background processing
+- Observability and distributed tracing
 - Deterministic simulation
-- Developer tooling
-- Maintainable software architecture
+- Desktop and native software
+- Full-stack product engineering
+- Automated testing and adversarial failure testing
+
+---
+
+## 🔬 What I Like Building
+
+Systems where correctness matters when things go wrong:
+
+- workers disappearing during execution
+- concurrent requests racing for the same resource
+- network connections dropping
+- retries delivering duplicate messages
+- stale processes returning late results
+- real-time data arriving continuously
+- state needing to survive process failures
+
+I enjoy designing the ownership rules, persistence boundaries, failure behavior, and tests that make these systems understandable and reliable.
 
 ---
 
@@ -206,10 +290,14 @@ An original Turkish and English word puzzle with multiple game modes.
 
 **Computer Engineering — Khazar University, Baku**
 
-Relevant coursework includes Software Engineering, Data Structures and Algorithms, Database Systems, Operating Systems, Computer Networks, Computer Organization, Artificial Intelligence, Neural Networks, and Information Security.
+Relevant coursework includes Software Engineering, Data Structures and Algorithms, Database Systems, Operating Systems, Computer Networks, Computer Organization, Artificial Intelligence, Neural Networks, Distributed Systems, and Information Security.
 
 ---
 
 ## 📫 Contact
 
-[LinkedIn](https://linkedin.com/in/tahagurvardar)
+<p>
+  <a href="https://linkedin.com/in/tahagurvardar">
+    <img src="https://img.shields.io/badge/LinkedIn-Taha%20Gürvardar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
