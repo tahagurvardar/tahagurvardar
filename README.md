@@ -124,6 +124,7 @@
 | :-- | :-- | :-- |
 | [**ForgeGrid**](https://github.com/tahagurvardar/forgegrid) | Distributed job engine, recovery and DAG pipelines | Go · gRPC · PostgreSQL · Docker |
 | [**RaceLab**](https://github.com/tahagurvardar/racelab) | Real-time motorsport telemetry for Windows | Rust · Tauri · React · UDP |
+| [**VOIDSPACE**](https://github.com/tahagurvardar/voidspace) | Local-first digital headspace with interactive 3D experiences | Next.js · TypeScript · Three.js · IndexedDB |
 | [**SeatFlow**](https://github.com/tahagurvardar/seatflow) | Transactional ticketing and seat inventory | TypeScript · Next.js · PostgreSQL |
 | [**CommitTrail**](https://github.com/tahagurvardar/committrail) | Evidence-based engineering portfolio | Next.js · Prisma · PostgreSQL |
 | [**QueueForge**](https://github.com/tahagurvardar/queueforge) | Deterministic browser simulation | TypeScript · React · Web Workers |
@@ -191,6 +192,31 @@ A Windows telemetry, automatic session recording, and in-game overlay applicatio
   </a>
   <a href="https://github.com/tahagurvardar/racelab/releases/tag/v2.0.0">
     <img src="https://img.shields.io/badge/Release-v2.0.0-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="RaceLab v2.0.0" />
+  </a>
+</p>
+
+---
+
+### 🌌 VOIDSPACE — Interactive Digital Headspace
+
+A local-first web experience for capturing thoughts, staying focused, and taking creative breaks, built around an atmospheric 3D **Living Core**.
+
+<p><img src="https://img.shields.io/badge/Next.js-334155?style=flat-square" alt="Next.js" /> <img src="https://img.shields.io/badge/TypeScript-334155?style=flat-square" alt="TypeScript" /> <img src="https://img.shields.io/badge/React-334155?style=flat-square" alt="React" /> <img src="https://img.shields.io/badge/Three.js-334155?style=flat-square" alt="Three.js" /> <img src="https://img.shields.io/badge/React%20Three%20Fiber-334155?style=flat-square" alt="React Three Fiber" /> <img src="https://img.shields.io/badge/Tailwind%20CSS-334155?style=flat-square" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/IndexedDB-334155?style=flat-square" alt="IndexedDB" /> <img src="https://img.shields.io/badge/Vitest-334155?style=flat-square" alt="Vitest" /> <img src="https://img.shields.io/badge/Playwright-334155?style=flat-square" alt="Playwright" /></p>
+
+- **Clear:** Save, categorize, edit, search, or release thoughts
+- **Focus:** Timestamp-based timer with pause/resume, reload recovery, statistics, and session history
+- **Explore:** Interactive Orbit Lab particle simulation and Echo Waves experience
+- **Archive:** Saved thoughts visualized as an interactive constellation or searchable list
+- **Privacy:** Browser-local persistence with IndexedDB and JSON backup/import
+- **Accessibility:** Responsive layouts, reduced-motion support, and WebGL fallback
+- **Quality:** 124 unit/integration tests and 34 desktop/mobile end-to-end tests
+
+<p>
+  <a href="https://github.com/tahagurvardar/voidspace">
+    <img src="https://img.shields.io/badge/Repository-VOIDSPACE-181717?style=for-the-badge&logo=github&logoColor=white" alt="VOIDSPACE repository" />
+  </a>
+  <a href="https://voidspace-pi.vercel.app">
+    <img src="https://img.shields.io/badge/Live%20Demo-VOIDSPACE-2EA043?style=for-the-badge&logo=vercel&logoColor=white" alt="VOIDSPACE live demo" />
   </a>
 </p>
 
